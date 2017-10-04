@@ -1,0 +1,6 @@
+language: go
+go_import_path: kkn.fi/heap
+script: make test
+go:
+    - 1.9
+    - tip
